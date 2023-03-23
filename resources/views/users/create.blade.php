@@ -5,9 +5,11 @@
         <div class="pull-left">
             <h2>Create New User</h2>
         </div>
+        <br>
         <div class="pull-right">
             <a class="btn btn-primary" href="{{ route('users.index') }}"> Back</a>
         </div>
+        <br>
     </div>
 </div>
 @if (count($errors) > 0)

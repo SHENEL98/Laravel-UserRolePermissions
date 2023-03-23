@@ -5,9 +5,11 @@
             <div class="pull-left">
                 <h2>Edit Product</h2>
             </div>
+            <br>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
             </div>
+            <br>
         </div>
     </div>
     @if ($errors->any())

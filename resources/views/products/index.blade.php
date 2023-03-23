@@ -5,11 +5,13 @@
             <div class="pull-left">
                 <h2>Products</h2>
             </div>
+            <br>
             <div class="pull-right">
                 @can('product-create')
                 <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
                 @endcan
             </div>
+            <br>
         </div>
     </div>
     @if ($message = Session::get('success'))
